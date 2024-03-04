@@ -17,7 +17,7 @@ p {
 input {
     padding: 10px;
     background-color: #F6995C;
-    color:#51829B;
+    color:#020506;
     border:black 2px solid ;
 
 }
@@ -63,8 +63,13 @@ input:hover{
     display: flex;
     flex-flow: row;
     width: 300px;
-
     gap:1rem;
+}
+
+.input-text::placeholder{
+    color: black;
+    font-weight: 300;
+
 }
 
 .todo-container ul{
