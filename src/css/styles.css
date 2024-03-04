@@ -1,0 +1,84 @@
+body,html{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #EADFB4;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #51829B;
+    font-size: 50px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+input {
+    padding: 10px;
+    background-color: #F6995C;
+    color:#51829B;
+    border:black 2px solid ;
+
+}
+
+
+
+
+img{
+    width: 40px;
+    user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+li{
+    list-style: none;
+}
+button:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: all(0.4s);
+}
+input:hover{
+    cursor: pointer;
+}
+
+.add{
+    background-color: transparent;
+    border:none;
+}
+.input{
+    width: 300px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.input-text{
+    display: flex;
+    flex-flow: row;
+    width: 400px;
+
+    gap:1rem;
+}
+
+.todo-container ul{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+.todo-container ul li {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
