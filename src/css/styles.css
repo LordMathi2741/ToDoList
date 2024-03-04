@@ -62,7 +62,7 @@ input:hover{
 .input-text{
     display: flex;
     flex-flow: row;
-    width: 400px;
+    width: 300px;
 
     gap:1rem;
 }
